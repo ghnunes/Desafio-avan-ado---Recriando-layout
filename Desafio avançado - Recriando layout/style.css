@@ -1,0 +1,93 @@
+/* tive muita dificuldade para fazer esse desafio porque as distâncias estavam com base de 1280 por 720 e o meu monitor é 2560 por 1080, então quando eu seguia as margens ficava tudo estranho */
+body {
+    margin-top: 0px;
+    background-color: #2F2E41;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-end;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 71px;
+    margin-left: 98px;
+    margin-right: 98px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-left: 99px;
+    margin-right: 89px;
+}
+
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #C2C2C2;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.page {
+    margin: 0;
+    padding-top: 0px;
+}
+
+span {
+    color: #00BFA6;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page {
+    margin: 99px 71px 89px 235px;
+    padding-top: 0px;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 180px;
+    border-top: 1px solid #00BFA6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#rodape{
+    width: 51px;
+    height: 62px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+
+}
